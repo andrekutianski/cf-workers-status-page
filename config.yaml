@@ -29,6 +29,7 @@ monitors:
     url: 'https://www.mimirtech.co'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
 
   - id: docs-mimirtech-co
     name: docs.mimirtech.co
@@ -36,3 +37,4 @@ monitors:
     url: 'https://docs.mimirtech.co/en'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
